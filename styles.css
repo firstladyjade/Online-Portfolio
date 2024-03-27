@@ -129,7 +129,240 @@ p {
 
 .headshot {
     margin-top: 70px;
-    width: 100%;
+    width: 100%;body {
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    section {
+        background-color: #ffe6e6; /* Soft pink background */
+    }
+    
+    .hero {
+        background-color: #ff8c8c; /* Light coral for hero section */
+        height: 100vh;
+        color: white;
+        font-size: 40px;
+    }
+    
+    footer {
+        background-color: #ff8c8c; /* Light coral for footer */
+        color: white;
+        text-align: center;
+        padding: 80px;
+    }
+    
+    nav {
+        background-color: #ff8c8c; /* Light coral background for navbar */
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .nav-list {
+        display: flex;
+        list-style-type: none;
+        width: 900px;
+        justify-content: space-around;
+        font-size: 30px;
+    }
+    
+    li {
+        text-decoration: none;
+    }
+    
+    h1 {
+        font-size: 90px;
+        margin: 0;
+    }
+    
+    h2 {
+        font-size: 50px;
+    }
+    
+    p {
+        margin: 0;
+        font-size: 30px;
+        font-weight: 300;
+    }
+    
+    .subtext {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .hero-area {
+        display: flex;
+        height: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .hero-text {
+        margin-left: 80px;
+        margin-bottom: 200px;
+    }
+    
+    .button {
+        width: 200px;
+        height: 55px;
+        border-radius: 30px;
+        background-color: #ff6666; /* Coral button color */
+        text-align: center;
+        font-size: 30px;
+        font-weight: 300;
+        padding-top: 5px;
+        margin-top: 20px;
+    }
+    
+    .button:hover {
+        background-color: #cc4d4d; /* Darker coral on hover */
+    }
+    
+    .button:active{
+        background-color: #a63333; /* Even darker coral on click */
+        color: #ffffff;
+    }
+    
+    .socials {
+        padding-bottom: 200px;
+    }
+    
+    .logo {
+        height: 80px;
+        margin: 30px;
+        border-radius: 100px;
+    }
+    
+    .social {
+        margin: 20px;
+    }
+    
+    .sub-section {
+        display: flex;
+        justify-content: space-between;
+        padding: 80px;
+    }
+    
+    .information {
+        display: flex;
+        flex-direction: column;
+        width: calc(100% - 20px);
+    }
+    
+    .headshot-container {
+        width: calc(50% - 20px);
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .column {
+        margin-bottom: 20px;
+    }
+    
+    .headshot {
+        margin-top: 70px;
+        width: 100%;
+        max-width: 300px;
+        border-radius: 20%;
+        padding: 10px;
+    }
+    
+    
+    .sub-section-alternative {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 80px;
+    }
+    
+    .project-card {
+        width: 250px;
+        height: 500px;
+        box-shadow: 5px 5px 20px rgb(197, 195, 195);
+        margin: 10px;
+    }
+    
+    .project-container {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    @media only screen and (max-width: 1000px) {
+        .project-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    
+    .project-image {
+        width: 200px;
+        border-radius: 100px;
+        margin-top: 25px;
+    }
+    
+    hr {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .project-link {
+        text-decoration: none;
+        color: #ff6666; /* Coral color for links */
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .hamburger {
+        display: none;
+    }
+    
+    .hamburger:focus {
+        outline: 0;
+    }
+    
+    @media only screen and (max-width: 1000px) {
+        .hamburger {
+            display: block;
+            border: 0;
+            background-color: transparent;
+            color: white;
+            font-size: 30px;
+            margin: 20px;
+            align-self: flex-end;
+        }
+    
+        .nav-list {
+            display: none;
+            background-color: #ff6666; /* Light coral background for mobile nav */
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+    
+        .nav-list.show {
+            display: flex;
+            flex-direction: column;
+            padding-left: 15px;
+        }
+    
+        nav {
+            display: flex;
+            flex-direction: column-reverse;
+            background-color: #ff6666; /* Light coral background for mobile nav */
+        }
+    
+        .logo {
+            display: none;
+        }
+    }
+    
+    .bio {
+        font-size: 20px;
+    }
+    
     max-width: 300px;
     border-radius: 20%;
     padding: 10px;
