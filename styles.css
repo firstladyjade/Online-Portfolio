@@ -3,18 +3,18 @@ body {
 }
 
 section {
-    background-color: #f7f0f0; /* Soft pink background */
+    background-color: #ffe6e6; /* Soft pink background */
 }
 
 .hero {
-    background-color: #ff9e9e; /* Light coral for hero section */
+    background-color: #ffc3c3; /* Light coral for hero section */
     height: 100vh;
     color: white;
     font-size: 40px;
 }
 
 footer {
-    background-color: #ff9e9e; /* Light coral for footer */
+    background-color: #ffc3c3; /* Light coral for footer */
     color: white;
     text-align: center;
     padding: 80px;
@@ -73,7 +73,7 @@ p {
     width: 200px;
     height: 55px;
     border-radius: 30px;
-    background-color: #ff7f7f; /* Coral button color */
+    background-color: #ff8c8c; /* Coral button color */
     text-align: center;
     font-size: 30px;
     font-weight: 300;
@@ -82,11 +82,11 @@ p {
 }
 
 .button:hover {
-    background-color: #ff5c5c; /* Darker coral on hover */
+    background-color: #ff6666; /* Darker coral on hover */
 }
 
 .button:active{
-    background-color: #c74c4c; /* Even darker coral on click */
+    background-color: #cc4d4d; /* Even darker coral on click */
     color: #ffffff;
 }
 
@@ -175,7 +175,7 @@ hr {
 
 .project-link {
     text-decoration: none;
-    color: #ff7f7f; /* Coral color for links */
+    color: #ff8c8c; /* Coral color for links */
 }
 
 a {
@@ -204,7 +204,7 @@ a {
 
     .nav-list {
         display: none;
-        background-color: #ff7f7f; /* Light coral background for mobile nav */
+        background-color: #ff8c8c; /* Light coral background for mobile nav */
         margin: 0;
         padding: 0;
         list-style-type: none;
@@ -219,7 +219,7 @@ a {
     nav {
         display: flex;
         flex-direction: column-reverse;
-        background-color: #ff7f7f; /* Light coral background for mobile nav */
+        background-color: #ff8c8c; /* Light coral background for mobile nav */
     }
 
     .logo {
