@@ -3,18 +3,18 @@ body {
 }
 
 section {
-    background-color: #ffe6e6; /* Soft pink background */
+    background-color: #EDEDDD;
 }
 
 .hero {
-    background-color: #ffc3c3; /* Light coral for hero section */
+    background-color: #67917D;
     height: 100vh;
     color: white;
     font-size: 40px;
 }
 
 footer {
-    background-color: #ffc3c3; /* Light coral for footer */
+    background-color:#9EB998 ;
     color: white;
     text-align: center;
     padding: 80px;
@@ -73,7 +73,7 @@ p {
     width: 200px;
     height: 55px;
     border-radius: 30px;
-    background-color: #ff8c8c; /* Coral button color */
+    background-color: #055F67;
     text-align: center;
     font-size: 30px;
     font-weight: 300;
@@ -82,12 +82,7 @@ p {
 }
 
 .button:hover {
-    background-color: #ff6666; /* Darker coral on hover */
-}
-
-.button:active{
-    background-color: #cc4d4d; /* Even darker coral on click */
-    color: #ffffff;
+    background-color: #0A393C; 
 }
 
 .socials {
@@ -96,9 +91,12 @@ p {
 
 .logo {
     height: 80px;
-    margin: 30px;
-    border-radius: 100px;
+    width: 80px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 50%;
 }
+
 
 .social {
     margin: 20px;
