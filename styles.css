@@ -305,7 +305,7 @@ p {
         nav {
             display: flex;
             flex-direction: column-reverse;
-            background-color: #0A393C; /* Light coral background for mobile nav */
+            background-color: #0A393C;
         }
     
         .logo {
@@ -360,29 +360,29 @@ p {
 
 @media only screen and (max-width: 1000px) {
     .sub-section {
-      flex-direction: column; /* Arrange sections in a column */
-      align-items: center; /* Center items horizontally */
+      flex-direction: column;
+      align-items: center;
     }
   
     .information {
-      width: 100%; /* Set width to full width */
-      max-width: 800px; /* Set a maximum width */
+      width: 100%;
+      max-width: 800px;
     }
   
     .headshot-container {
-      width: 100%; /* Set width to full width */
-      max-width: 800px; /* Set a maximum width */
-      margin-top: 50px; /* Adjust margin for spacing */
-      display: flex; /* Use flexbox */
-      justify-content: center; /* Center items horizontally */
+      width: 100%;
+      max-width: 800px;
+      margin-top: 50px;
+      display: flex; 
+      justify-content: center;
     }
   
     .headshot {
-      width: 300px; /* Set a specific width */
-      height: 300px; /* Set a specific height to make it a perfect circle */
-      max-width: 100%; /* Ensure the image doesn't overflow its container */
-      border-radius: 50%; /* Make the image circular */
-      overflow: hidden; /* Hide overflow to ensure the circular shape */
+      width: 300px;
+      height: 300px;
+      max-width: 100%;
+      border-radius: 50%; 
+      overflow: hidden;
     }
   }
 
@@ -428,7 +428,7 @@ a {
 
     .nav-list {
         display: none;
-        background-color: #0A393C; /* Light coral background for mobile nav */
+        background-color: #0A393C;
         margin: 0;
         padding: 0;
         list-style-type: none;
@@ -443,7 +443,7 @@ a {
     nav {
         display: flex;
         flex-direction: column-reverse;
-        background-color: #0A393C; /* Light coral background for mobile nav */
+        background-color: #0A393C;
     }
 
     .logo {
