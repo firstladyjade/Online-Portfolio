@@ -4,7 +4,7 @@ body {
 }
 
 section {
-    background-color: white;
+    background-color: #EDEDDD;
 }
 
 h1 {
@@ -29,7 +29,7 @@ p {
 
 /* Header styles */
 .hero {
-    background-color: #1c1d25;
+    background-color: #67917D;
     height: 100vh;
     color: white;
     font-size: 40px;
@@ -51,7 +51,7 @@ p {
     width: 200px;
     height: 55px;
     border-radius: 30px;
-    background-color: coral;
+    background-color: #0A393C;
     text-align: center;
     font-size: 30px;
     font-weight: 300;
@@ -60,7 +60,7 @@ p {
 }
 
 .button:hover {
-    background-color: #ef744b;
+    background-color: #055F67;
 }
 
 .button:active {
@@ -73,9 +73,10 @@ p {
 }
 
 .logo {
-    height: 80px;
+    height: 100px;
+    width: 100px;
     margin: 30px;
-    border-radius: 100px;
+    border-radius: 100%;
 }
 
 .social {
@@ -102,7 +103,7 @@ li {
 
 /* Footer styles */
 footer {
-    background-color: black;
+    background-color: #9EB998;
     color: white;
     text-align: center;
     padding: 80px;
@@ -191,7 +192,7 @@ footer {
 }
 
 .project-link {
-    color: #007bff;
+    color: #0A393C;
     text-decoration: none;
 }
 
@@ -218,7 +219,7 @@ footer {
 
     .nav-list {
         display: none;
-        background-color: #2b2c38;
+        background-color: #0A393C;
         margin: 0;
         padding: 0;
         list-style-type: none;
@@ -233,7 +234,7 @@ footer {
     nav {
         display: flex;
         flex-direction: column-reverse;
-        background-color: #2b2c38;
+        background-color: #0A393C;
     }
 
     .logo {
@@ -267,7 +268,7 @@ hr {
 
 .project-link {
     text-decoration: none;
-    color: #ef744b;
+    color: #0A393C;
 }
 
 a {
