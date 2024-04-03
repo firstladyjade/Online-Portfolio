@@ -281,7 +281,8 @@ coming-soon {
       .nav-list {
         display: flex;
         flex-direction: column;
-        margin-top: 90px !important;
+        top: 90px !important;
+        margin: 0;
         padding: 0;
         list-style-type: none;
         position: fixed;
