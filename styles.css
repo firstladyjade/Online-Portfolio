@@ -280,7 +280,7 @@ coming-soon {
       
       .nav-list {
         display: flex;
-        flex-direction: column; /* Ensure list items display vertically */
+        flex-direction: column;
         top: 90px !important;
         margin: 0;
         padding: 0;
